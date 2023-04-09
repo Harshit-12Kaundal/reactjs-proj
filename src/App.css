@@ -1,38 +1,107 @@
-.App {
+body {
+  background: #86109b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.main{
+  text-align:left;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .input-btn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  border: none;
+  height: 1.5rem;
+}
+
+
+.container .btn{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7313cb;
+  border-radius: .3rem;
+  border: none;
+  height: 1.5rem;
+}
+.input-text {
+  display: inline;
+  margin: 0;
+  border: none;
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.list ul li button {
+  position: absolute;
+  right: 0%;
+  background: #f34541;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.container .list ul li .btn-2{
+  background: red;
+}
+
+.add-btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #7313cb;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.app-title {
   text-align: center;
+  margin-left: 0px;
+  color: #fff;
+  font-size: 70px;
+  margin-bottom: 1rem;
+}
+ul {
+  /* remove default padding and margin from ul*/
+  margin: 0px;
+  padding: 0px;
+}
+.list ul li {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
